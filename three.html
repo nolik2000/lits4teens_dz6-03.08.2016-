@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=utf-8>
+		<title>Anastasia Kostiv (03/08/16)</title>
+		<link href = "style.css" rel = "stylesheet">
+	</head>
+	<body>
+	   <script>
+  var line = '';
+
+      var a = 0;
+      while (a < 8) {
+          var b = 0;
+            while (b < 8) {
+                if((a + b) % 2 == 0 ){
+                  line += '#';
+                }else{
+                  line += ' ';
+                }
+              b++;
+            }
+              line = line + '\n';
+        a++;
+      }
+      console.log(line);
+    </script>
+	</body>
+</html>
