@@ -9,9 +9,10 @@
 	   <script>
   var line = '';
 
-      var a = 0;
+	function desk(a, b){
+		a = 0;
       while (a < 8) {
-          var b = 0;
+            b = 0;
             while (b < 8) {
                 if((a + b) % 2 == 0 ){
                   line += '#';
@@ -20,10 +21,12 @@
                 }
               b++;
             }
-              line = line + '\n';
+            line = line + '\n';
         a++;
       }
-      console.log(line);
+		 console.log(line);
+	 }
+      desk();
     </script>
 	</body>
 </html>
